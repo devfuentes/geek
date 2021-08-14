@@ -1,0 +1,1 @@
+new fullpage("#fullpage",{navigation:!0,responsiveWidth:700,anchors:["home","test"],menu:"#menu",continuousVertical:!0,onLeave:function(e,n,o){console.log("Leaving section"+e.index)}});

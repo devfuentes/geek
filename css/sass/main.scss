@@ -6,6 +6,10 @@
 //BASE
 @import "base/normalize.scss";
 @import "base/typography.scss";
-
+// COMPONMENTS
+@import "components/hero";
+@import "components/glitch";
+@import "components/buttons";
+@import "components/navigation";
 //HELPERS
 @import "utils/helpers";

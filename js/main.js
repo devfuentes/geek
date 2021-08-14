@@ -2,8 +2,9 @@
   new fullpage("#fullpage", {
     navigation: true,
     responsiveWidth: 700,
-    anchors: ["home", "about-us", "contact"],
-    parallax: true,
+    anchors: ["home", "test"],
+    menu: "#menu",
+    continuousVertical: true,
     onLeave: function (origin, destination, direction) {
       console.log("Leaving section" + origin.index);
     },
